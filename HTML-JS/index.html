@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo da hipotenusa</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+         <!-- <link rel="stylesheet" type="text/html" href="style.css"> -->
+     <style>
+        /*  CSS para CLASSES começam  com '.' */
+    .flex {
+        background-color: aquamarine
+    };        
+ 
+    #cat1,
+    #cat2 {
+        font-size: 30pxs;
+    }
+     </style>
+</head>
+<body>
+    <div class=" container m-auto flex flex-col">
+        <h1 class="bg-gray-200 font-bold text-center text-2xl">
+        Calculo da Hipotenusa</h1>
+        <Div class="mt-3"> 
+            <!-- h² = cat1² + cat² => h = raiz(cat1² + cat2²) -->
+            <div class="mt-2 flex flex-col ">
+                <label for="cat1" class=" text-sm text-gray-600"> Cateto 1</label>
+                <input type="text" name="cat1" id="cat1" class="border bg-amber-200 p-2"
+                 placeholder="Cateto 1" value="3"> 
+            </div>
+        </Div>      
+        <div>  
+             <div class="m-2 flex flex-col"> 
+                <label for="cat2" class=" text-sm text-gray-600"> Cateto 2</label>
+                <input type="text" name="cat2" id="cat2" class="border bg-amber-200 p-2" placeholder="Cateto 2" value="4">
+            </div>
+            <div class="mt-2 flex flex-col" id="resposta"></Div>
+        </div>
+        <button class="border p-3 bg-slate-500" id="calcular">calcular</button> 
+
+        <button class="border p-3" onclick="alert('clique no botao 1')"> Teste de clique 1 </button>
+
+        <button class="border p-3" id="botao2"> Teste de clique 2 </button> 
+        
+    </div>        
+    <script src="scriptindex.js" type="text/javascript"></script>
+</body>
+</html>
