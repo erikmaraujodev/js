@@ -1,4 +1,13 @@
-var btn1 = document.getElementById("=");
-btn2.addEventListener("click", function () {
-  alert("botao foi clicado!");
+console.log("O JavaScript foi vinculado com sucesso!");
+
+let = botoes = document.querySelectorAll("button>");
+
+// i = 0;
+// botoes.forEach((botao) => {
+//   console.log(i, botao);
+//   i++;
+// });
+
+botoes.forEach((botao) => {
+  console.log(i, botao);
 });
